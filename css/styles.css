@@ -1,7 +1,24 @@
-      img {
-          width: 50%
-            }
-        
-        body{
-            background: teal;
-        }
+/*Global*/
+img {
+    width: 50%
+}
+body{
+    background: greenyellow;
+}
+/*Layout*/
+
+
+/*Typography*/
+
+
+/*Navigation*/
+a {
+    background: red;
+    display: block;
+    width: 100px;
+    height: 50px;
+}
+
+li {
+    display: inline-block;
+}
