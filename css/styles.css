@@ -17,7 +17,7 @@ img {
     width: 50%
 }
 body{
-    background: cornflowerblue;
+    background: #0ebeff;
 }
 /*Layout*/
 
@@ -34,17 +34,23 @@ body {
 
 
 /*Navigation*/
-a {
-    background: grey;
-    display: block;
-    width: 100px;
-    height: 50px;
-    border-radius: 25%;
-    
-}
+
 
 .nav li {
-    display: inline-block;
+    display: inline;
     list-style: none;
-    
+    padding: 3em;
+	margin-right: 4em;
 }
+
+a:link {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+
+}
+
+
+
