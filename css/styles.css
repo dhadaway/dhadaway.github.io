@@ -1,3 +1,17 @@
+/* Reasearch!
+
+Fonts:
+    Headers - font-family: 'Lato', sans-serif;
+    Body - font-family: 'Merriweather', serif;
+
+
+
+
+
+*/
+
+
+
 /*Global*/
 img {
     width: 50%
@@ -10,8 +24,12 @@ body{
 
 /*Typography*/
 
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+}
+
 body {
-    font-family: 'Montserrat', sans-serif;
+ font-family: 'Merriweather', serif;   
 }
 
 
@@ -21,9 +39,12 @@ a {
     display: block;
     width: 100px;
     height: 50px;
-    border-radius: 25%
+    border-radius: 25%;
+    
 }
 
-.nav {
+.nav li {
     display: inline-block;
+    list-style: none;
+    
 }
