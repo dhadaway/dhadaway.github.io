@@ -24,9 +24,20 @@ body{
 
 /*Typography*/
 
-h1, h2 {
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    margin: 0 0 10px 0;
+    font-weight: normal
+}
+
+
+h1, h2{
     font-family: 'Lato', sans-serif;
-    color: red;
+    color: white;
+}
+
+h1 {
+    background-color: black;
     
 }
 
