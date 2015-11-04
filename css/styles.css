@@ -4,7 +4,8 @@ Fonts:
     Headers - font-family: 'Lato', sans-serif;
     Body - font-family: 'Merriweather', serif;
 
-
+Colors:
+    
 
 
 
@@ -20,6 +21,7 @@ body {
 		font-family: 'Merriweather', serif;
 		max-width: 100%;
 		min-width: 100px;
+        color: white;
 	}
 /*Layout*/
 
@@ -33,7 +35,6 @@ h1 {
 
 
 /*Typography*/
-
 
 
 h1, h2{
@@ -50,6 +51,7 @@ a:link {
     text-decoration: none;
     text-transform: uppercase;
     display: inline;
+   
 }
 
 a:hover {
@@ -68,8 +70,9 @@ a:hover {
 		padding: 0;
 		margin: 0;
 		height: 55px;
-		position: absolute;
 		right: 15%;
+		float: right;
+		margin-top: -72px;
 	}
 
 .nav ul li {
