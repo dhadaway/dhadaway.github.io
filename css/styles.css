@@ -29,6 +29,19 @@ body {
 	background-color: #1b8e6b;
 	margin: 0;
 	padding: .5em;
+	
+}
+
+#about {
+    background-color: #f1bc1c;
+	margin: 0;
+	padding: .5em;
+}
+
+#resume {
+   background-color: #dab064;
+	margin: 0;
+	padding: .5em;
 }
 
 
@@ -44,7 +57,6 @@ h1, h2{
 h1 {
 		background-color: #cc3333;
 		height: 50px;
-		box-shadow: inset 0px -3px 0px #663333;
 		padding: .5em;
 		margin: 0;
 	}
