@@ -91,7 +91,7 @@ a:hover {
 		padding: 0 15px 0 15px;
 		line-height: 55px;
 		text-decoration: none;
-		color: #fff;
+		color: #000;
 	}
 
 #home-nav {
@@ -99,7 +99,7 @@ a:hover {
 	    background-color: #1b8e6b;
 		height: 60px;
 		padding: 1em 2em 2em 2em;
-		margin: 0;
+		margin: .25em;
 		border-top-left-radius: 10px;
 		border-top-right-radius: 10px;
 
@@ -110,7 +110,7 @@ a:hover {
         background-color: #f1bc1c;
 		height: 60px;
 		padding: 1em 2em 2em 2em;
-		margin: 0;
+		margin: .25em;
 		border-top-left-radius: 10px;
 		border-top-right-radius: 10px;
 }
@@ -120,7 +120,7 @@ a:hover {
  		background-color: #dab064;
 		height: 60px;
 		padding: 1em 2em 2em 2em;
-		margin: 0;
+		margin: .25em;
 		border-top-left-radius: 10px;
 		border-top-right-radius: 10px;
 
@@ -131,7 +131,7 @@ a:hover {
 	 	background-color: #f1d9aa;
 		height: 60px;
 		padding: 1em 2em 2em 2em;
-		margin: 0;
+		margin: .25em;
 		border-top-left-radius: 10px;
 		border-top-right-radius: 10px;
 }
