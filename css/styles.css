@@ -25,13 +25,7 @@ body {
 	}
 /*Layout*/
 
-h1 {
-		background-color: #cc3333;
-		height: 55px;
-		box-shadow: inset 0px -3px 0px #663333;
-		padding: .5em;
-		margin: 0;
-	}
+
 
 
 /*Typography*/
@@ -40,7 +34,16 @@ h1 {
 h1, h2{
     font-family: 'Lato', sans-serif;
     color: white;
-}
+    
+   }
+
+h1 {
+		background-color: #cc3333;
+		height: 55px;
+		box-shadow: inset 0px -3px 0px #663333;
+		padding: .5em;
+		margin: 0;
+	}
 
 
 /*Navigation*/
@@ -51,11 +54,12 @@ a:link {
     text-decoration: none;
     text-transform: uppercase;
     display: inline;
+    min-width: 660px;
    
 }
 
 a:hover {
-
+	text-shadow: 2px 2px 7px #111111;
 }
 
 .nav {
@@ -89,6 +93,17 @@ a:hover {
 		text-decoration: none;
 		color: #fff;
 	}
+
+#home-nav {
+	
+	    background-color: #1b8e6b;
+		height: 60px;
+		padding: 1em 2em 2em 2em;
+		margin: 0;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+
+}
 
 
 
