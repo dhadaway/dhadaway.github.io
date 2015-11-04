@@ -13,22 +13,27 @@ Fonts:
 
 
 /*Global*/
-img {
-    width: 50%
-}
-body{
-    background: #0ebeff;
-}
+
+body {
+		margin: 0;
+		background-color: #1d1d1d;
+		font-family: 'Merriweather', serif;
+		max-width: 100%;
+		min-width: 100px;
+	}
 /*Layout*/
+
+h1 {
+		background-color: #cc3333;
+		height: 55px;
+		box-shadow: inset 0px -3px 0px #663333;
+		padding: .5em;
+		margin: 0;
+	}
 
 
 /*Typography*/
 
-h1, h2, h3, h4, h5, h6 {
-    line-height: 1.2;
-    margin: 0 0 10px 0;
-    font-weight: normal
-}
 
 
 h1, h2{
@@ -36,34 +41,53 @@ h1, h2{
     color: white;
 }
 
-h1 {
-    background-color: black;
-    
-}
-
-body {
- font-family: 'Merriweather', serif;   
-}
-
 
 /*Navigation*/
 
 
-.nav li {
-    display: inline;
-    list-style: none;
-    padding: 3em;
-	margin-right: 4em;
-}
 
 a:link {
     text-decoration: none;
     text-transform: uppercase;
+    display: inline;
 }
 
 a:hover {
 
 }
+
+.nav {
+		width: 100%;
+		position: relative;
+		padding: 0;
+		margin: 0;
+	}
+
+.nav ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		height: 55px;
+		position: absolute;
+		right: 15%;
+	}
+
+.nav ul li {
+		float: left;
+		height: 55px;
+		padding: 0;
+		margin: 0;
+	}
+
+.nav ul li a {
+		margin: 0;
+		padding: 0 15px 0 15px;
+		line-height: 55px;
+		text-decoration: none;
+		color: #fff;
+	}
+
+
 
 
 
