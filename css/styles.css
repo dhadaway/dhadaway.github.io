@@ -39,7 +39,7 @@ h1, h2{
 
 h1 {
 		background-color: #cc3333;
-		height: 55px;
+		height: 50px;
 		box-shadow: inset 0px -3px 0px #663333;
 		padding: .5em;
 		margin: 0;
@@ -105,6 +105,36 @@ a:hover {
 
 }
 
+#about-nav {
+	
+        background-color: #f1bc1c;
+		height: 60px;
+		padding: 1em 2em 2em 2em;
+		margin: 0;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+}
+
+#resume-nav {
+
+ 		background-color: #dab064;
+		height: 60px;
+		padding: 1em 2em 2em 2em;
+		margin: 0;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+
+}
+
+#portfolio-nav {
+
+	 	background-color: #f1d9aa;
+		height: 60px;
+		padding: 1em 2em 2em 2em;
+		margin: 0;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+}
 
 
 
