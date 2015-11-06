@@ -160,9 +160,10 @@ a:hover {
 
 		/* Nav - Media Queries */
 
-@media .nav ul li (min-width 800px){
-	color: blue;
-	background-color: yellow;
-}
 
+@media (min-width: 500px) {
+	.nav ul li a {
+	color: pink;
+	}
+}
 
