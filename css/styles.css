@@ -23,6 +23,12 @@ body {
 		min-width: 100px;
         color: white;
 	}
+
+p {
+    margin: 20px;
+}
+
+
 /*Layout*/
 
 #home {
@@ -51,15 +57,15 @@ body {
 h1, h2{
     font-family: 'Lato', sans-serif;
     color: white;
-    
+    padding: .5em;
    }
 
 h1 {
 		background-color: #cc3333;
 		height: 50px;
-		padding: .5em;
 		margin: 0;
 	}
+
 
 
 /*Navigation*/
@@ -113,7 +119,7 @@ a:hover {
 #home-nav {
 	
 	    background-color: #1b8e6b;
-		height: 60px;
+		height: 55px;
 		padding: 1em 2em 2em 2em;
 		margin: .25em;
 		border-top-left-radius: 10px;
