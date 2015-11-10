@@ -168,9 +168,10 @@ a:hover {
 	}
 }
 
-@meida (max-width: 500px) {
+@meida (max-width: 600px) {
 	.nav ul li {
 		background-color: aquamarine;
+        float: none;
 	}
 
 }
