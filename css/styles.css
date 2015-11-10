@@ -61,7 +61,7 @@ h1, h2{
    }
 
 h1 {
-		background-color: #cc3333;
+		background-color: #c11141;
 		height: 50px;
 		margin: 0;
 	}
@@ -140,7 +140,7 @@ a:hover {
 
 #resume-nav {
 
- 		background-color: #dab064;
+ 		background-color: #1196c1;
 		height: 60px;
 		padding: 1em 2em 2em 2em;
 		margin: .25em;
@@ -151,7 +151,7 @@ a:hover {
 
 #portfolio-nav {
 
-	 	background-color: #f1d9aa;
+	 	background-color: #90dcf4;
 		height: 60px;
 		padding: 1em 2em 2em 2em;
 		margin: .25em;
@@ -174,3 +174,6 @@ a:hover {
 	}
 
 }
+
+
+
