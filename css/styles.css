@@ -164,17 +164,13 @@ a:hover {
 
 @media (max-width: 500px) {
 	.nav ul li a {
-	color: pink;
-	}
-}
-
-@meida (max-width: 600px) {
-	.nav ul li {
-		background-color: aquamarine;
+	    color: pink;
+        background-color: aquamarine;
         float: none;
 	}
-
 }
+
+
 
 
 
