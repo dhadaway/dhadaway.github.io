@@ -32,20 +32,26 @@ p {
 /*Layout*/
 
 #home {
-	background-color: #1b8e6b;
+	background-color: #1d9b75;
 	margin: 0;
 	padding: .5em;
 	
 }
 
 #about {
-    background-color: #f1bc1c;
+    background-color: #1b8e6b;
 	margin: 0;
 	padding: .5em;
 }
 
 #resume {
-   background-color: #dab064;
+   background-color: #167458;
+	margin: 0;
+	padding: .5em;
+}
+
+#portfolio {
+    background-color: #0f4e3b;
 	margin: 0;
 	padding: .5em;
 }
@@ -119,7 +125,7 @@ a:hover {
 
 #home-nav {
 	
-	    background-color: #1b8e6b;
+	    background-color: #1d9b75;
 		height: 55px;
 		padding: 1em 2em 2em 2em;
 		margin: .25em;
@@ -130,7 +136,7 @@ a:hover {
 
 #about-nav {
 	
-        background-color: #f1bc1c;
+        background-color: #1b8e6b;
 		height: 60px;
 		padding: 1em 2em 2em 2em;
 		margin: .25em;
@@ -140,7 +146,7 @@ a:hover {
 
 #resume-nav {
 
- 		background-color: #1196c1;
+ 		background-color: #167458;
 		height: 60px;
 		padding: 1em 2em 2em 2em;
 		margin: .25em;
@@ -151,7 +157,7 @@ a:hover {
 
 #portfolio-nav {
 
-	 	background-color: #90dcf4;
+	 	background-color: #0f4e3b;
 		height: 60px;
 		padding: 1em 2em 2em 2em;
 		margin: .25em;
