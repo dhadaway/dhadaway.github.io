@@ -29,6 +29,9 @@ p {
 }
 
 
+
+
+
 /*Layout*/
 
 #home {
@@ -72,6 +75,10 @@ h1 {
 		margin: 0;
 	}
 
+h2 {
+    text-align: center;
+
+}
 
 
 /*Navigation*/
