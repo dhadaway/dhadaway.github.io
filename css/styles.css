@@ -18,7 +18,7 @@ Colors:
 body {
 		margin: 0;
 		background-color: #1d1d1d;
-		font-family: 'Merriweather', serif;
+		font-family: 'Garamond', serif;
 		max-width: 100%;
 		min-width: 100px;
         color: white;
@@ -26,16 +26,15 @@ body {
 
 p {
     margin: 20px;
+    font-size: 1.2em
 }
 
-ul {
+ul li {
     list-style: none;
+    font-size: 1.2em;
 }
 
-.underline {
-    line-height: 30px;
-    background-color: aliceblue;
-}
+
 
 
 /*Layout*/
