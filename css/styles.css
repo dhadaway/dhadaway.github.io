@@ -15,6 +15,7 @@ Colors:
 
 /*Global*/
 
+
 body {
 		margin: 0;
 		background-color: #1d1d1d;
@@ -29,10 +30,16 @@ p {
     font-size: 1.2em
 }
 
-ul li {
+.lists {
     list-style: none;
     font-size: 1.2em;
+    text-decoration: none;
 }
+
+blockquote {
+    text-align: center;
+}
+
 
 
 
@@ -95,8 +102,11 @@ a:link {
     text-transform: uppercase;
     display: inline;
     min-width: 660px;
+    color: inherit;
    
 }
+
+
 
 a:hover {
 	text-shadow: 2px 2px 7px #111111;
