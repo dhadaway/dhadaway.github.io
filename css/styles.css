@@ -40,7 +40,13 @@ blockquote {
     text-align: center;
 }
 
+/*images*/
 
+img {
+    width: 70px;
+    height: auto;
+    margin: -20px 0 -20px 0;
+}
 
 
 
@@ -89,8 +95,11 @@ h1 {
 
 h2 {
     text-align: center;
+    letter-spacing: .5em;
 
 }
+
+
 
 
 /*Navigation*/
@@ -113,13 +122,16 @@ a:hover {
 }
 
 .nav {
-		width: 100%;
+        font-family: 'Lato', sans-serif;
+    
+        width: 100%;
 		position: relative;
 		padding: 0;
 		margin: 0;
 	}
 
 .nav ul {
+    
 		list-style-type: none;
 		padding: 0;
 		margin: 0;
@@ -134,10 +146,12 @@ a:hover {
 		height: 55px;
 		padding: 0;
 		margin: 0;
+    
 
 	}
 
 .nav ul li a {
+    
 		margin: 0;
 		padding: 0 15px 0 15px;
 		line-height: 55px;
@@ -190,13 +204,7 @@ a:hover {
 		/* Nav - Media Queries */
 
 
-@media (max-width: 500px) {
-	.nav ul li a {
-	    color: pink;
-        background-color: aquamarine;
-        float: none;
-	}
-}
+
 
 
 
