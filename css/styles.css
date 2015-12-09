@@ -53,6 +53,12 @@ img {
     margin: -20px 0 -20px 0;
 }
 
+.homepic {
+    height: 300px;
+    width: 400px;
+    margin-left: 32%;
+}
+
 
 
 
@@ -67,8 +73,8 @@ padding: .5em 0 100% 0;
 
 #about {
     background-color: #1b8e6b;
-margin: 0;
-padding: .5em;
+    margin: 0;
+    padding: .5em;
 }
 
 #resume {
@@ -118,6 +124,7 @@ a:link {
     display: inline;
     min-width: 660px;
     color: inherit;
+    font-size: .90em;
    
 }
 
@@ -128,12 +135,11 @@ text-shadow: 2px 2px 7px #111111;
 }
 
 .nav {
-        font-family: 'Lato', sans-serif;
-    
-        width: 100%;
-position: relative;
-padding: 0;
-margin: 0;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
 }
 
 .nav ul {
@@ -160,7 +166,7 @@ margin: 0;
    
 margin: 0;
 padding: 0 15px 0 15px;
-line-height: 55px;
+line-height: 60px;
 text-decoration: none;
 color: #000;
 }
@@ -176,12 +182,12 @@ border-top-right-radius: 10px;
 }
 
 #about-nav {
-        background-color: #1b8e6b;
-height: 60px;
-padding: .1em 2em 2em 2em;
-margin: .25em;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
+    background-color: #1b8e6b;
+    height: 60px;
+    padding: .1em 2em 2em 2em;
+    margin: .25em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 #resume-nav {
