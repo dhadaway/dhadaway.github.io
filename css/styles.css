@@ -37,6 +37,7 @@ p {
     font-size: 1.2em;
     text-decoration: none;
     margin: 40px;
+    text-align: center;
 }
 
 blockquote {
@@ -45,6 +46,7 @@ blockquote {
 
 hr {
     margin: -28px 25% 0 25%;
+    color: dimgray;
 }
 
 /*images*/
@@ -114,6 +116,17 @@ h2 {
 
 }
 
+h3 {
+ font-weight: 500;
+ padding: .5em;
+    color: ;
+}
+
+li {
+    list-style: none;
+    margin-top: .5em;
+    
+}
 
 
 
