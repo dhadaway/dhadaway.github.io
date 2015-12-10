@@ -36,7 +36,7 @@ p {
     list-style: none;
     font-size: 1.2em;
     text-decoration: none;
-    margin: 40px;
+    margin: 3% 8% 10% 8%;
     text-align: center;
 }
 
@@ -91,8 +91,8 @@ padding: .5em;
 
 #portfolio {
     background-color: #0f4e3b;
-margin: 0;
-padding: .5em;
+    margin: 0;
+    padding: .5em;
 }
 
 
