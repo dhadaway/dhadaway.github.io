@@ -50,6 +50,10 @@ hr {
     opacity: 0.3;
 }
 
+.bottom {
+    margin-bottom: 4em;
+}
+
 /*images*/
 
 img {
@@ -145,11 +149,8 @@ a:link {
     text-transform: uppercase;
     display: inline;
     color: inherit;
-    font-size: .90em;
-       
-   
+    font-size: .9em;
 }
-
 
 
 a:hover {
@@ -158,7 +159,7 @@ text-shadow: 2px 2px 7px #111111;
 
 .nav {
     font-family: 'Lato', sans-serif;
-    width: 100%;
+    width: 98%;
     position: relative;
     padding: 0;
     margin: 0;
