@@ -234,9 +234,18 @@ border-top-left-radius: 10px;
 border-top-right-radius: 10px;
 }
 
-/* Nav - Media Queries */
+/* gallery */
 
+.item {
+    background: red;
+    display: inline-block;
+    margin: 0 auto;
+    
+}
 
+#item-1 {
+
+}
 
 
 
