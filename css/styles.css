@@ -26,8 +26,10 @@ min-width: 100px;
 }
 
 p {
-    margin: 3% 10% 0 10%;
+    margin: 3% 8% 0 8%;
     font-size: 1.2em;
+    align-content: center;
+    text-align: center;
 }
 
 .lists {
@@ -40,8 +42,9 @@ p {
 blockquote {
     text-align: center;
 }
+
 hr {
-    margin: -28px;
+    margin: -28px 25% 0 25%;
 }
 
 /*images*/
@@ -55,8 +58,8 @@ img {
 .homepic {
     height: 300px;
     width: 400px;
-    margin-left: 32%;
-    padding: 2em 0 -1em 0;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -100,7 +103,7 @@ h1, h2{
    }
 
 h1 {
-background-color: #c11141;
+background-color: dimgrey;
 height: 45px;
 margin: 0;
 }
@@ -122,9 +125,9 @@ a:link {
     text-decoration: none;
     text-transform: uppercase;
     display: inline;
-    min-width: 660px;
     color: inherit;
     font-size: .90em;
+       
    
 }
 
@@ -172,12 +175,12 @@ color: #000;
 }
 
 #home-nav {
-   background-color: #1d9b75;
-height: 55px;
-padding: .1em 2em 2em 2em;
-margin: .25em;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
+    background-color: #1d9b75;
+    height: 55px;
+    padding: .1em 2em 2em 2em;
+    margin: .25em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 
 }
 
