@@ -45,7 +45,7 @@ blockquote {
 }
 
 hr {
-    margin: -28px 25% 0 25%;
+    margin: -2% 25% 0 25%;
     border-color: black;
     opacity: 0.3;
 }
@@ -63,6 +63,7 @@ img {
     width: 400px;
     display: block;
     margin: 0 auto;
+    padding-top: 3%;
 }
 
 
