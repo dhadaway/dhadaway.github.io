@@ -46,7 +46,8 @@ blockquote {
 
 hr {
     margin: -28px 25% 0 25%;
-    color: dimgray;
+    border-color: black;
+    opacity: 0.3;
 }
 
 /*images*/
@@ -113,6 +114,7 @@ margin: 0;
 h2 {
     text-align: center;
     letter-spacing: .4em;
+    
 
 }
 
