@@ -77,25 +77,25 @@ img {
 #home {
 background-color: #1d9b75;
 margin: auto;
-padding: .5em 0 100% 0;
+padding: .5em 0 80% 0;
 }
 
 #about {
     background-color: #1b8e6b;
     margin: 0;
-    padding: .5em;
+    padding: .5em 0 80% 0;
 }
 
 #resume {
    background-color: #167458;
 margin: 0;
-padding: .5em;
+padding: .5em 0 80% 0;
 }
 
 #portfolio {
     background-color: #0f4e3b;
     margin: 0;
-    padding: .5em;
+    padding: .5em 0 80% 0;
 }
 
 
@@ -106,6 +106,7 @@ h1, h2{
     font-family: 'Lato', sans-serif;
     color: white;
     padding: .5em;
+    text-align: center;
    }
 
 h1 {

@@ -11,17 +11,27 @@
 /*
 	Theme controls how everything looks in Gallery CSS.
 */
+
 .gallery {
   position: relative;
+  text-align: center;
+  align-content: center; 
+
 }
+
 .gallery .item {
-  height: 400px;
+  height: 4em;
+  width: 6em;    
   overflow: hidden;
   text-align: center;
   background: #0f4e3b;
+  position: center;
+  align-content: center;
 }
+
+
 .gallery .controls {
-  height: 50%;        
+  height: 40%;        
   position: absolute;
   bottom: 0;
   width: 100%;
