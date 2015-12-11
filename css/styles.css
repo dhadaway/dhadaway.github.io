@@ -252,26 +252,26 @@ border-top-right-radius: 10px;
         width: 100%;
         position: relative;
         padding: 0;
-        display: inline-block;
-        margin: 0 auto;
+      
+       
     }
 
-.nav ul {
+    .nav ul {
     
-list-style-type: none;
-padding: 1em 0 0 0;
-margin: 0;
-height: 55px;
-right: 15%;
-float: right;
-margin-top: -72px;
+        list-style-type: none;
+        margin:0 -1em 0 1em;
+        height: 55px;
+        margin-top: -72px;
+        align: center; 
+        width: 100%;
+        text-align: center;
 }
 
 .nav ul li {
-float: left;
 height: 55px;
 padding: 0;
 margin-top: 0;
+    
    
 
 }
