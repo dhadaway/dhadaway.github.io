@@ -13,15 +13,14 @@
 */
 
 .gallery {
-  position: relative;
-  text-align: center;
-  align-content: center; 
+ position: relative; 
+ text-align: center; 
 
 }
 
 .gallery .item {
-  height: 4em;
-  width: 6em;    
+  height: 612px;
+  width: 792px;    
   overflow: hidden;
   text-align: center;
   background: #0f4e3b;
@@ -39,12 +38,19 @@
 }
 .gallery .control-button {
   display: inline-block;
-  margin: 0 .02em;
+  margin: 3em .02em 0;
   font-size: 3em;
   text-align: center;
   text-decoration: none;
   transition: color .1s;
       
+}
+
+.control-button {   
+    max-height:200px;
+    overflow:hidden;
+    
+
 }
 
 
