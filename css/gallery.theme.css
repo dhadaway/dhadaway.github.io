@@ -1,3 +1,4 @@
+
 .gallery .control-button {
   color: #ccc;
   color: rgba(255, 255, 255, 0.4);
@@ -8,9 +9,7 @@
   color: rgba(255, 255, 255, 0.8);
 }
 
-/*
-	Theme controls how everything looks in Gallery CSS.
-*/
+
 
 .gallery {
  position: relative; 
@@ -19,9 +18,8 @@
 }
 
 .gallery .item {
-  height: 612px;
-  width: 792px;    
-  overflow: hidden;
+  height: 200%;
+  width: 200%; 
   text-align: center;
   background: #0f4e3b;
   position: center;
@@ -32,7 +30,7 @@
 .gallery .controls {
   height: 40%;        
   position: absolute;
-  bottom: 0;
+  bottom: -2em;
   width: 100%;
   text-align: center;
 }
@@ -52,5 +50,4 @@
     
 
 }
-
 
