@@ -73,6 +73,8 @@ img {
 
 
 
+
+
 /*Layout*/
 
 #home {
@@ -96,7 +98,7 @@ padding: .5em 0 13em 0;
 #portfolio {
     background-color: #0f4e3b;
     margin: 0;
-    padding: .5em 0 20em 0;
+    padding: .5em 0 100% 0;
 }
 
 
@@ -240,37 +242,37 @@ border-top-right-radius: 10px;
 @media screen and (max-width: 610px) {
     h1 {
         background-color: dimgrey;
-        margin-bottom: 3em;
         height: auto;
+        padding: 2em
     }
     img {
         display: block;
-        margin: 0 auto;   
+        margin: 0 auto;
+        padding-bottom: -10%;
     }
     .nav {
         font-family: 'Lato', sans-serif;
-        width: 100%;
-        position: relative;
+        width: auto;
         padding: 0;
-      
+        display: inline;
        
     }
 
     .nav ul {
-    
-        list-style-type: none;
-        
-        height: 55px;
-        margin-top: -72px; 
+        list-style: none;
+        height: 55px; 
         width: 90%;
         align-content: center;
+        margin: -72px 5% 0 5%;
+
 }
 
-.nav ul li {
-height: 55px;
-padding: 0;
-margin-top: 0;
-    
+    .nav ul li {
+        height: 55px;
+        padding: 0;
+        align-content: center;
+      
+
    
 
 }
@@ -318,8 +320,8 @@ border-top-right-radius: 10px;
 
 background-color: #0f4e3b;
 height: 60px;
-padding: 1em 2em .8em 2em;
-margin: .25em;
+padding: 1em 2em .8em 0 2em;
+margin: 0 .25em 0 0;
 border-top-left-radius: 10px;
 border-top-right-radius: 10px;
 }

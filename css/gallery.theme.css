@@ -9,7 +9,10 @@
   color: rgba(255, 255, 255, 0.8);
 }
 
-
+.item{
+    width: 3em;
+    height: 3em;
+}
 
 .gallery {
  position: relative; 
