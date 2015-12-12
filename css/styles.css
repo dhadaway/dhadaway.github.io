@@ -259,12 +259,11 @@ border-top-right-radius: 10px;
     .nav ul {
     
         list-style-type: none;
-        margin:0 -1em 0 1em;
+        
         height: 55px;
-        margin-top: -72px;
-        align: center; 
-        width: 100%;
-        text-align: center;
+        margin-top: -72px; 
+        width: 90%;
+        align-content: center;
 }
 
 .nav ul li {
