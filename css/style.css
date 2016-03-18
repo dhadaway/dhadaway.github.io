@@ -9,12 +9,19 @@ body {
   color: black;
 }
 
+/* layout */
+#home, #about, #resume, #portfolio {
+    background-color: white;
+    margin: -.4em 0 0 0;
+    padding: .5em 0 13em 0;
+    border-radius: 2px;
+}
+
 p {
     margin: 4% 5% 0 5%;
     font-size: 1.3em;
     align-content: center;
     text-align: center;
-  
 }
 
 .lists {
@@ -56,25 +63,7 @@ hr {
 }
 
 
-
-
-
-/*Layout*/
-
-#home,
-#about, 
-#resume,
-#portfolio{
-background-color: white;
-margin: -.4em 0 0 0;
-padding: .5em 0 13em 0;
- border-radius: 2px;
-}
-
-
 /*Typography*/
-
-
 h1, h2{
     font-family: 'Lato', sans-serif;
     color: black;
@@ -83,10 +72,9 @@ h1, h2{
 
 
 h2 {
-    text-align: center;
-    letter-spacing: .4em;
-    font-size: 1.8em;
-
+  text-align: center;
+  letter-spacing: .4em;
+  font-size: 1.8em;
 }
 
 h3 {
@@ -97,15 +85,13 @@ h3 {
 
 li {
     list-style: none;
-    margin-top: .5em;
-    
+    margin-top: .5em;   
 }
 
 .resume-li {
     margin: -1em 15% 0 15%;
     padding: .75em;
 }
-
 
 
 /*Navigation*/
@@ -117,7 +103,6 @@ a:link {
     color: inherit;
     font-size: .9em;
 }
-
 
 a:hover {
 text-shadow: 2px 2px 7px #01605F;
@@ -132,7 +117,6 @@ text-shadow: 2px 2px 7px #01605F;
 }
 
 .nav ul {
-    
 list-style-type: none;
 padding: 1em 0 0 0;
 margin: 0;
@@ -157,7 +141,6 @@ padding: 0 15px 0 15px;
 line-height: 60px;
 text-decoration: none;
 color: #000;
-
 }
 
 #home-nav {
@@ -167,7 +150,6 @@ color: #000;
     margin: .25em;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-
 }
 
 #about-nav {
@@ -180,108 +162,141 @@ color: #000;
 }
 
 #resume-nav {
-
- 	background-color: #029392;
-height: 60px;
-padding: 1em 2em .8em 2em;
-margin: .25em;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
-
+  background-color: #029392;
+  height: 60px;
+  padding: 1em 2em .8em 2em;
+  margin: .25em;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 #portfolio-nav {
-
-background-color: #029392;
-height: 60px;
-padding: 1em 2em .8em 2em;
-margin: .25em;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
+  background-color: #029392;
+  height: 60px;
+  padding: 1em 2em .8em 2em;
+  margin: .25em;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
+
+#pop {
+  display: none;
+}
+
+.x{
+  display: none;
+}
+
 
 /* mobile */
 
 @media screen and (max-width: 610px) {
-    h1 {
-        background-color: dimgrey;
-        height: auto;
-        padding: 2em
-    }
-    .logo {
-        display: block;
-        margin: 0 auto;
-        padding-bottom: -10%;
-    }
-    .nav {
-        font-family: 'Lato', sans-serif;
-        width: auto;
-        padding: 0;
-        display: inline;
-       
-    }
+h1 {
+  height: auto;
+ }
+h2{
+  font-size: 1.5em;    
+  }  
+.logo {
+  display: inline-block;
+ }
+.nav {
+  width: auto;
+  padding: 0;
+ }
 
-    .nav ul {
-        list-style: none;
-        height: 55px; 
-        width: 90%;
-        align-content: center;
-        margin: -72px 5% 0 5%;
-
+*,
+*:before,
+*:after {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
 }
 
-    .nav ul li {
-        height: 55px;
-        padding: 0;
-        align-content: center;
-      
-
-   
-
+div > div {
+  float: right;
+  margin: -6em 16px 0 0;
 }
 
-.nav ul li a {
-margin: 0;
-padding: 0 15px 0 15px;
-line-height: 60px;
-text-decoration: none;
-color: #000;
+input {
+  display: none;
+}
 
+label {
+  display: block;
+  width: 5rem;
+  height: 3.5rem;
+  position: relative;
+}
+label span {
+  position: relative;
+  top: 1.5rem;
+}
+label span, label span:before, label span:after {
+  display: block;
+  background: #029392 ;
+  width: 5rem;
+  height: 0.5rem;
+  border-radius: 0.25rem;
+}
+label span:before, label span:after {
+  content: '';
+  position: absolute;
+}
+label span:before {
+  bottom: 1.5rem;
+}
+label span:after {
+  top: 1.5rem;
+}
+
+.x :checked ~ label span {
+  width: 0;
+}
+.x :checked ~ label span:before {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  bottom: 0;
+}
+.x :checked ~ label span:after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 0;
 }
 
 #home-nav {
-    height: 60px;
-    padding: 1em 2em .8em 2em;
-    margin: .25em;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-
+  display: none;
 }
 
 #about-nav {
-    height: 60px;
-    padding: 1em 2em .8em 2em;
-    margin: .25em;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+  display: none;
 }
 
 #resume-nav {
-height: 60px;
-padding: 1em 2em .8em 2em;
-margin: .25em;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
-
+  display: none;
 }
-
+  
 #portfolio-nav {
-height: 60px;
-padding: 1em 2em .8em 0 2em;
-margin: 0 .25em 0 0;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
+  display: none;
 }
+  
+.pop-out {
+  font-family: 'Lato', sans-serif;
+  background: #029392;
+  padding: .5em;
+  display: inline-block;
+  position: absolute;
+  border-radius: 2px;
+  margin: -6em 0 0 0;
+}
+    
+.pop-out li {
+  font-size: 1.5em;    
+}
+  
+.x{
+  display: block;
+}
+  
 }  
   
 /* gallery */
