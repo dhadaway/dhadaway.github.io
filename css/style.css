@@ -85,7 +85,7 @@ h3 {
 
 li {
     list-style: none;
-    margin-top: .5em;   
+    margin-top: .5em;
 }
 
 .resume-li {
@@ -131,7 +131,7 @@ float: left;
 height: 55px;
 padding: 0;
 margin-top: 0;
-   
+
 
 }
 
@@ -195,8 +195,8 @@ h1 {
   height: auto;
  }
 h2{
-  font-size: 1.5em;    
-  }  
+  font-size: 1.5em;
+  }
 .logo {
   display: inline-block;
  }
@@ -274,11 +274,11 @@ label span:after {
 #resume-nav {
   display: none;
 }
-  
+
 #portfolio-nav {
   display: none;
 }
-  
+
 .pop-out {
   font-family: 'Lato', sans-serif;
   background: #029392;
@@ -288,17 +288,17 @@ label span:after {
   border-radius: 2px;
   margin: -6em 0 0 0;
 }
-    
+
 .pop-out li {
-  font-size: 1.5em;    
+  font-size: 1.5em;
 }
-  
+
 .x{
   display: block;
 }
-  
-}  
-  
+
+}
+
 /* gallery */
 
 a {
@@ -460,4 +460,3 @@ a {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-  
