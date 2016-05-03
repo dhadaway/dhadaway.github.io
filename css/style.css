@@ -30,6 +30,7 @@ p {
     text-decoration: none;
     margin: 3% 8% 10% 8%;
     text-align: center;
+    text-transform: lowercase;
 }
 
 blockquote {
