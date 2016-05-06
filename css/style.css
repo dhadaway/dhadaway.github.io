@@ -30,7 +30,6 @@ p {
     text-decoration: none;
     margin: 3% 8% 10% 8%;
     text-align: center;
-    text-transform: lowercase;
 }
 
 blockquote {
@@ -87,19 +86,20 @@ h3 {
 li {
     list-style: none;
     margin-top: .5em;
+    text-transform: lowercase;
 }
 
 .resume-li {
     margin: -1em 15% 0 15%;
     padding: .75em;
-}
+    text-transform: lowercase;
+  }
 
 
 /*Navigation*/
 
 a:link {
     text-decoration: none;
-    text-transform: uppercase;
     display: inline;
     color: inherit;
     font-size: .9em;
@@ -142,6 +142,7 @@ padding: 0 15px 0 15px;
 line-height: 60px;
 text-decoration: none;
 color: #000;
+text-transform: uppercase;
 }
 
 #home-nav {
