@@ -103,6 +103,7 @@ a:link {
     display: inline;
     color: inherit;
     font-size: .9em;
+    text-transform: lowercase;
 }
 
 a:hover {
