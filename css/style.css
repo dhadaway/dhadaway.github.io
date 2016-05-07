@@ -146,40 +146,13 @@ color: #000;
 text-transform: uppercase;
 }
 
-#home-nav {
+#home-nav, #about-nav, #resume-nav, #portfolio-nav {
     background-color: #029392;
     height: 55px;
     padding: 1em 2em .8em 2em;
     margin: .25em;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-}
-
-#about-nav {
-    background-color: #029392;
-    height: 60px;
-    padding: 1em 2em .8em 2em;
-    margin: .25em;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-#resume-nav {
-  background-color: #029392;
-  height: 60px;
-  padding: 1em 2em .8em 2em;
-  margin: .25em;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-#portfolio-nav {
-  background-color: #029392;
-  height: 60px;
-  padding: 1em 2em .8em 2em;
-  margin: .25em;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 }
 
 #pop {
