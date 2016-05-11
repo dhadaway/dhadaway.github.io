@@ -12,8 +12,8 @@ body {
 /* layout */
 #home, #about, #resume, #portfolio {
     background-color: white;
-    margin: -.4em 0 0 0;
-    padding: .5em 0 13em 0;
+    margin: -.4em 0 auto 0;
+    padding: .5em 0 3em 0;
     border-radius: 2px;
 }
 
@@ -219,8 +219,6 @@ h2{
    padding: .5em;
    border-radius: 2px;
  }
-
-
 .nav--active .m_nav {
    -webkit-transition: all 300ms ease-in-out;
    transition: all 300ms ease-in-out;
