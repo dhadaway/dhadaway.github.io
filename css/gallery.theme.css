@@ -1,6 +1,6 @@
 
 .gallery .control-button {
-  color: #ccc;
+  color: red;
   color: rgba(255, 255, 255, 0.4);
 }
 
@@ -10,26 +10,19 @@
 }
 
 .item{
-    width: 3em;
-    height: 3em;
+    width: 1em;
+    height: 1em;
 }
-
 .gallery {
  position: relative;
  text-align: center;
-
 }
-
 .gallery .item {
-  height: 200%;
-  width: 200%;
   text-align: center;
   background: white;
   position: center;
   align-content: center;
 }
-
-
 .gallery .controls {
   height: 40%;
   position: absolute;
@@ -44,12 +37,9 @@
   text-align: center;
   text-decoration: none;
   transition: color .1s;
-
 }
 
 .control-button {
     max-height:200px;
     overflow:hidden;
-
-
 }
