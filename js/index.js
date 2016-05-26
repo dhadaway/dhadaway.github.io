@@ -66,11 +66,6 @@ var Emitter = function () {
 var Gallery = function (_Emitter) {
     _inherits(Gallery, _Emitter);
 
-    /**
-     * Constructor.
-     * @param { DOM node } el - the DOM node to gallerify
-     */
-
     function Gallery(el) {
         _classCallCheck(this, Gallery);
 
@@ -113,12 +108,6 @@ var Gallery = function (_Emitter) {
         return _this;
     }
 
-    /**
-     * Fetches images from the DOM and creates Items.
-     * @param { DOM node } gallery
-     * @param { function } cb - the callback to be executed when the promises resolve. Receives an array of items as the only parameter.
-     */
-
     Gallery.prototype._getSlides = function _getSlides(gallery, cb) {
         var promises = [];
         var slides = Array.from(gallery.querySelectorAll('.gallery__item'));
@@ -146,12 +135,6 @@ var Gallery = function (_Emitter) {
         return Promise.all(promises).then(cb);
     };
 
-    /**
-     * Takes an array of slides and returnes the scaled values for each, as well as the height of the tallest scaled slide.
-     * @param { array } slides
-     * @return { object } dimensions
-     */
-
     Gallery.prototype._getSlideDimensions = function _getSlideDimensions(slides) {
         var _this2 = this;
 
@@ -168,14 +151,6 @@ var Gallery = function (_Emitter) {
         return info;
     };
 
-    /**
-     * Takes an images dimensions, and returns the scaled values to fit into the gallery.
-     * @param { number} width
-     * @param { number} height
-     * @param { number} galleryMaxWidth
-     * @param { number} galleryMaxHeight
-     */
-
     Gallery.prototype._scaleImageDimensions = function _scaleImageDimensions(width, height, galleryMaxWidth, galleryMaxHeight) {
         var itemRatio = width / height;
         var galleryRatio = galleryMaxWidth / galleryMaxHeight;
@@ -189,11 +164,6 @@ var Gallery = function (_Emitter) {
         };
     };
 
-    /**
-     * Creates the <canvas> element.
-     * @param { DOM node } gallery
-     */
-
     Gallery.prototype._createCanvasLayers = function _createCanvasLayers(gallery) {
         this._canvas = document.createElement('canvas');
         this._canvas.width = this._width;
@@ -203,10 +173,6 @@ var Gallery = function (_Emitter) {
         // Put it out:
         gallery.appendChild(this._canvas);
     };
-
-    /**
-     * Attaches key listeners.
-     */
 
     Gallery.prototype._bindKeyEvents = function _bindKeyEvents() {
         var _this3 = this;
@@ -225,10 +191,6 @@ var Gallery = function (_Emitter) {
             }
         });
     };
-
-    /**
-     * Attaches touch listeners.
-     */
 
     Gallery.prototype._bindTouchEvents = function _bindTouchEvents() {
         var _this4 = this;
@@ -254,10 +216,6 @@ var Gallery = function (_Emitter) {
         });
     };
 
-    /**
-     *
-     *
-     */
 
     Gallery.prototype._bindResizeEvent = function _bindResizeEvent() {
         var _this5 = this;
