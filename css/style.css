@@ -287,3 +287,35 @@ h2{
 .gallery__item {
   display: none;
 }
+
+.instructions {
+  text-align: center;
+  color: #999999;
+  margin: 40px 0 20px;
+}
+.instructions__title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+.instructions__icon {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  fill: #999999;
+}
+.instructions__text {
+  margin-right: 10px;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+/*svg*/
+.swipe {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 100px auto 30px;
+  opacity: 0.4;
+}
