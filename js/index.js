@@ -4,28 +4,6 @@ $('.nav__trigger').on('click', function(e){
      $(this).parent().toggleClass('nav--active');
    });
 
-<<<<<<< HEAD
-$(document).ready(function() {
-
-  function toggleSidebar() {
-    $(".button").toggleClass("active");
-    $("main").toggleClass("move-to-left");
-    $(".sidebar-item").toggleClass("active");
-  }
-
-  $(".button").on("click tap", function() {
-    toggleSidebar();
-  });
-// to use escape button to get out of menu
-  $(document).keyup(function(e) {
-    if (e.keyCode === 27) {
-      toggleSidebar();
-    }
-  });
-
-});
-=======
->>>>>>> parent of f78543a... new mobile nav
 // gallery
 'use strict';
 
