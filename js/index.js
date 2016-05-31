@@ -1,5 +1,10 @@
 // nav
+$('.nav__trigger').on('click', function(e){
+     e.preventDefault();
+     $(this).parent().toggleClass('nav--active');
+   });
 
+<<<<<<< HEAD
 $(document).ready(function() {
 
   function toggleSidebar() {
@@ -19,6 +24,8 @@ $(document).ready(function() {
   });
 
 });
+=======
+>>>>>>> parent of f78543a... new mobile nav
 // gallery
 'use strict';
 
