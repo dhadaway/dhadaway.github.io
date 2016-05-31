@@ -170,8 +170,6 @@ h2{
   display: inline-block;
  }
 
- /* nav-mobile */
-
  .m_nav {
   position: absolute;
   z-index: 100;
@@ -293,15 +291,15 @@ h2{
  .nav__trigger {
   display: block;
   position: absolute;
-  width: 40px;
+  width: 30px;
   height: 25px;
   right: 10px;
-  top: 30px;
+  top: 10px;
   z-index: 200;
   margin: 2em;
 }
 .nav--active .nav__trigger {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 .nav__icon {
   display: inline-block;
