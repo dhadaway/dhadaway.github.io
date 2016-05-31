@@ -11,7 +11,7 @@ $(document).ready(function() {
   $(".button").on("click tap", function() {
     toggleSidebar();
   });
-
+// to use escape button to get out of menu
   $(document).keyup(function(e) {
     if (e.keyCode === 27) {
       toggleSidebar();
