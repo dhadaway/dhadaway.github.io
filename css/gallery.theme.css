@@ -1,0 +1,45 @@
+
+.gallery .control-button {
+  color: red;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.item{
+    width: 1em;
+    height: 1em;
+}
+.gallery {
+ position: relative;
+ text-align: center;
+}
+.gallery .item {
+  text-align: center;
+  background: white;
+  position: center;
+  align-content: center;
+}
+.gallery .controls {
+  height: 40%;
+  position: absolute;
+  bottom: -2em;
+  width: 100%;
+  text-align: center;
+}
+.gallery .control-button {
+  display: inline-block;
+  margin: 3em .02em 0;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+}
+
+.control-button {
+    max-height:200px;
+    overflow:hidden;
+}

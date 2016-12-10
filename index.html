@@ -1,415 +1,57 @@
 <!DOCTYPE html>
 <html >
-<head>
-  <meta charset="UTF-8">
-  <title>DJH Designs</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8">
+    <title>DJH Designs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link href="https://fonts.googleapis.com/css?family=Lato|Muli" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato|Merriweather' rel='stylesheet' type='text/css'>
+    <link rel="javascript" href="js/index.js">
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  
-  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+  </head>
 
-      <link rel="stylesheet" href="css/style.css">
+  <body>
 
-  
-</head>
+<header>
+<!--   logo        -->
+ <h1><img class="logo" src="https://raw.githubusercontent.com/dhadaway/dhadaway.github.io/master/img/final-logo-white.png" alt="logo"></h1>
+<!--     nav    -->
+<nav role='navigation' class="nav" class="grid-6">
+  <ul>
+    <li><a href="index.html" id="home-nav">Home</a></li>
+    <li><a href="about.html" id="about-nav">About</a></li>
+    <li><a href="resume.html" id="resume-nav">Resume</a></li>
+    <li><a href="portfolio.html" id="portfolio-nav">Portfolio</a></li>
+  </ul>
+</nav>
+<!-- moblie nav   -->
+    <a href="#" class="nav__trigger"><span class="nav__icon"></span></a>
+      <nav class="m_nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="index.html">Home</a></li>
+          <li class="nav__item"><a class="nav__link" href="about.html">About</a></li>
+          <li class="nav__item"><a class="nav__link" href="resume.html">Resume</a></li>
+          <li class="nav__item"><a class="nav__link" href="portfolio.html">Portfolio</a></li>
+        </ul>
+      </nav>
+</header>
 
-<body>
-  <div id='header'>
-  <div class='container'>
-    <div class='row'>
-      <div class='header-wrapper'>
-        <a href='#content'>
-          <div id='about-icon' class='tile'>
-            
-            <span class='tile-label'>About</span>
-          </div>
-          <!--about-->
-        </a>
-        <a href='#portfolio'>
-          <div id='portfolio-icon' class='tile'>
-            
-            <span class='tile-label'>Portfolio</span>
-          </div>
-          <!--portfolio-->
-        </a>
-        <div class='DJH-logo-wrapper'>
-          <img src="https://raw.githubusercontent.com/dhadaway/dhadaway.github.io/master/img/final-logo-white.png" alt="" class="logo"/>
-        </div>
-        <!--DJH-logo-wrapper-->
-        <a href='#skills'>
-          <div id='resume-icon' class='tile'>
-            <span class='tile-label'>Skills</span>
-          </div>
-          <!--resume-->
-        </a>
-        <a href='#contact'>
-          <div id='contact-icon' class='tile'>
-            <span class='tile-label'>Contact</span>
-          </div>
-          <!--contact-->
-        </a>
-        
+  <section id="home">
 
-        <div class="container">
-          <!--<div class='menu'>-->
-          <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown"><i class="fa fa-bars fa-3x"></i>
-            </button>
-            <ul class="dropdown-menu dropdown-menu-middle" role="menu" aria-labelledby="menu1">
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="#content">About</a></li>
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="#portfolio">Portfolio</a></li>
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="#skills">Skills</a></li>
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="#contact">Contact</a></li>
-            </ul>
-          </div>
-          <!--dropdown-->
-          <!-- </div>-->
-          <!--menu-->
-        </div>
-        <!--container-->
-      </div>
-      <!--header-wrapper-->
-    </div>
-    <!--row-->
-  </div>
-  <!--container-->
-</div>
-<!--header-->
+      <h2>-Danielle Hadaway-</h2>
 
-<div id='content'>
-  <div class='container'>
-    </div>
-    <!--me-picture-->
+      <hr>
 
-    <h1>Danielle J Hadaway</h1>
+  <img src="https://raw.githubusercontent.com/dhadaway/dhadaway.github.io/master/img/grad.jpg" alt="Graduation" />
 
-    <div class='bio'>
-      <span>
-        Hello! I am a designer and developer based out of Washington State. For the past four years I have been a student at Eastern Washington University and now as a graduate I am working to continue my passions and interests in all things design. 
-      </span>
-    </div>
-    <!--bio-->
+   <p>I am a graduate from Eastern Washington University with a B.A. in Visual Communication Design. I love branding new companies and helping them get their feet off the ground with beautiful designs that encapsulate their passions and their visions. This past year I have become very passionate about front-end web design/development and app design.  </p>
+  </section>
 
-    <a href='#portfolio'>
-        <div>
-<!--   add content??     -->
-        </div>
-    </a>
-    <!--portfolio-anchor-->
 
-    <span class="anchor" id="portfolio"></span>
-    <div id='portfolio-section' class='section'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="js/index.js"></script>
 
-      <h1 class='section-header'>Portfolio</h1>
-
-      <div class='container'>
-        <div class='farwest-fab-section row'>
-          <div class='section-text col-md-6'>
-            <h3 class='project-header'>
-              Farwest Fabrication
-            </h3>
-
-            <span>
-              Founded in 1993, Farwest Fabrication strives to provide the best products and services in the steel fabrication industry. They pride themselves on quality products, competitive pricing, and the timely completion of each job. 
-            </span>
-          </div>
-          <!--sectiontext-->
-          <a id='farwest-fab-pic' href="http://farwestfab.com" title='Farwest Fabrication' target="_blank">
-            <img class='col-md-6 img-responsive section-img' src="http://api.page2images.com/ccimages/5a/51/r7hR1I1Nrj16JSef.png" title="Farwest Fabrication" />
-          </a>
-        </div>
-        <!--farwestfab end-->
-        
-        <div class='kea-section row'>
-          <div class='section-text col-md-6'>
-            <h3 class='project-header'>
-              Kea: Learn Birds Through Play
-            </h3>
-
-            <span>
-              Kea is an app that is helping a technology-immersed society connect with the birds that share our planet. Kea helps us learn birds faster, easier, and with more fun than any rote memorization, by turning the process of learning to recognize birds into a game. To make things even better, Kea already covers more of the globe than any field guide.
-            </span>
-          </div>
-          <!--sectiontext-->
-          <a id='kea-pic' href="http://kea-learnbirdsthroughplay.com/" title='Kea' target="_blank">
-            <img class='col-md-6 img-responsive section-img' src="https://github.com/dhadaway/dhadaway.github.io/blob/master/img/kea-icon.png?raw=true" title="Kea" />
-          </a>
-        </div>
-<!--kea end-->
-        
-      </div>
-      <!--container-->
-
-      <hr class="fancy-line"></hr>
-
-      <!--TODO: Fill with more projects-->
-
-    </div>
-    <!--portfoliosection-->
-
-    <span class="anchor" id="skills"></span>
-    <div id='skills-section' class='section'>
-
-      <h1 class='section-header'>Skills</h1>
-
-      <div class='container'>
-        <div class="table-responsive desktop-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th class='skill-subject'>Languages</th>
-                <th>Familiar</th>
-                <th>Comfortable</th>
-                <th>Proficient</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>HTML</td>
-                <td colspan='3'>
-                  <div class="progress">
-                    <div id='html' class="progress-bar languages proficient"></div>
-                  </div>
-                </td>
-              </tr><!--html-->
-              <tr>
-                <td>CSS</td>
-                <td colspan='3'>
-                  <div class="progress">
-                    <div id='css' class="progress-bar languages proficient"></div>
-                  </div>
-                </td>
-              </tr><!--css-->
-              <tr>
-                <td>JavaScript</td>
-                <td colspan='3'>
-                  <div class="progress">
-                    <div id='js' class="progress-bar languages comfortable"></div>
-                  </div>
-                </td>
-              </tr><!--JavaScript-->
-            </tbody>
-          </table><!--languages-->
-        </div><!--desktop-table-->
-          
-          <div class="table-responsive desktop-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th class='skill-subject'>Tools<br/>Libraries<br/>Frameworks</th>
-                <th>Familiar</th>
-                <th>Comfortable</th>
-                <th>Proficient</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>jQuery</td>
-                <td colspan='3'>
-                  <div class="progress">
-                    <div id='jq' class="progress-bar tools comfortable"></div>
-                  </div>
-                </td>
-              </tr><!--jquery-->
-              <tr>
-                <td>Bootstrap</td>
-                <td colspan='3'>
-                  <div class="progress">
-                    <div id='bootstrap' class="progress-bar tools comfortable"></div>
-                  </div>
-                </td>
-              </tr><!--bootstrap-->
-               <td>Illustrator</td>
-                <td colspan='3'>
-                  <div class="progress">
-                    <div id='photoshop' class="progress-bar tools proficient"></div>
-                  </div>
-                </td>
-              </tr> <!--illustrator-->
-              <td>InDesign</td>
-                <td colspan='3'>
-                  <div class="progress">
-                    <div id='photoshop' class="progress-bar tools proficient"></div>
-                  </div>
-                </td>
-              </tr> <!--indesign-->
-              <td>Photoshop</td>
-                <td colspan='3'>
-                  <div class="progress">
-                    <div id='photoshop' class="progress-bar tools proficient"></div>
-                  </div>
-                </td>
-              </tr><!--photoshop-->
-            <td>Chrome Dev Tools</td>
-                <td colspan='3'>
-                  <div class="progress">
-                    <div id='cdt' class="progress-bar tools comfortable"></div>
-                  </div>
-                </td>
-              </tr><!--cdt-->
-            </tbody>
-          </table><!--libraries/frameworks-->
-        </div><!--table-responsive desktop-table-->
-        
-        <div class="table-responsive mobile-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th class='skill-subject'>Languages</th>
-                <th>Skill Level</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>HTML</td>
-                <td>Proficient</td>
-              </tr>
-              <tr>
-                <td>CSS</td>
-                <td>Proficient</td>
-              </tr>
-              <tr>
-                <td>JavaScript</td>
-                <td>Comfortable</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <div class="table-responsive mobile-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th class='skill-subject'>Tools<br/>Libraries<br/>Frameworks</th>
-                <th>Skill Level</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>jQuery</td>
-                <td>Comfortable</td>
-              </tr>
-              <tr>
-                <td>Bootstrap</td>
-                <td>Comfortable</td>
-              </tr>
-              <tr>
-                <td>Illustrator</td>
-                <td>Proficient</td>
-              </tr>
-              <tr>
-                <td>InDesign</td>
-                <td>Proficient</td>
-              </tr>
-              <tr>
-                <td>Photoshop</td>
-                <td>Proficient</td>
-              </tr>
-              <tr>
-                <td>Chrome Dev<br/>Tools</td>
-                <td>Comfortable</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div><!--container-->
-     
-    </div>
-    <!--skills-section-->
-
-    <!-- <hr class="fancy-line"></hr>-->
-
-    <span class="anchor" id="contact"></span>
-    <div id='contact-section' class='section'>
-      
-      <h1 class='section-header'>Contact</h1>
-
-      <div class='social-media'>
-      <div class='social-media-icons' id='linkedin'>
-        <a href='https://www.linkedin.com/in/danielle-hadaway'  title='LinkedIn' target="_blank">
-         <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
-        </a>
-      </div>
-      <!--linkedin-->
-
-      <div class='social-media-icons' id='github'>
-        <a href='https://github.com/dhadaway' title='Github' target="_blank">
-         <i class="fa fa-github fa-lg" aria-hidden="true"></i>
-        </a>
-      </div>
-      <!--github-->
-
-      <div class='social-media-icons' id='twitter'>
-        <a href='https://twitter.com/djh_designs'  title='Twitter' target="_blank">
-          <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
-        </a>
-      </div>
-      <!--twitter-->
-        
-      <div class='social-media-icons' id='twitter'>
-        <a href='https://behance.net/djhadaway'  title='Behance' target="_blank">
-          <i class="fa fa-behance fa-lg" aria-hidden="true"></i>
-        </a>
-      </div>
-      <!--behance-->
-               
-      <div class='social-media-icons' id='twitter'>
-        <a href='https://http://codepen.io/dhadaway'  title='Code Pen' target="_blank">
-          <i class="fa fa-codepen fa-lg" aria-hidden="true"></i>
-        </a>
-      </div>
-  <!--codepen-->
-        
-    </div>
-    <!--social-media-->
-      
-      <div class='contact-blurb'>
-        <span>
-          Feel free to contact me with any questions about my work, my skills, or just me! 
-        </span>
-      </div>
-      <!--contact-blurb-->
-
-      <form class="form" role="form" action="https://formspree.io/djhadaway.designs@gmail.com" method="POST">
-        <div class="form-group">
-          <div class='col-md-6'>
-            <input placeholder='Name' type="text" class="form-control" id="name">
-
-            <input placeholder='Email' type="email" class="form-control" id="email">
-
-          </div>
-        </div>
-        <div class="form-group">
-          <div class='col-md-6'>
-            <textarea placeholder='Message' class="form-control" rows="5" id="message"></textarea>
-          </div>
-        </div>
-        <button id='contact-send' type="submit" class="btn btn-info btn-lg">Send</button>
-      </form>
-    </div>
-    <!--contact-section-->
-    <a id='top' title='Back To Top'>
-      <i class="fa fa-chevron-up"></i>
-    </a>
-    <!--top-->
-  </div>
-  <!--container-->
-</div>
-<!--content-->
-
-<div id='footer'>
-  <span class='footer-text'><i class="fa fa-copyright"></i> 2016 DJH Designs</span>
-</div>
-<!--footer-->
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.min.js'></script>
-<script src='https://cdn.jsdelivr.net/velocity/1.2.2/velocity.ui.min.js'></script>
-<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
-
-    <script src="js/index.js"></script>
-
-</body>
+  </body>
 </html>
