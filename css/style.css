@@ -29,7 +29,7 @@ a:focus {
   color: black;
 }
 
-#header, 
+#header,
 #content,
 #footer {
   display: inline-block;
@@ -133,7 +133,7 @@ hr.header-divider {
   left: 0;
   right: 0;
   display: none;
-  background-color: #faebd7;
+  background-color: white;
   width: 50px;
   border-radius: 5px;
   opacity: .5;
@@ -170,8 +170,8 @@ hr.header-divider {
   margin-left: 10%;
 }
 
-hr.fancy-line { 
-    border: 0; 
+hr.fancy-line {
+    border: 0;
     height: 1px;
 
 }
@@ -302,27 +302,27 @@ th {
 
 /* sm pic change */
 @media (max-width:992px){
-  
+
     #portfolio-section img{
   margin: 0 auto;
 }
-  
+
 }
 
 
 /*Mobile menu*/
 @media only screen and (max-width: 800px),
 only screen and (max-device-width: 800px) {
-    
+
   .tile {
     display: none;
   }
-  
+
   .DJH-logo-wrapper {
     float: right;
     margin-right: 50px;
   }
-  
+
   .DJH-logo-wrapper svg {
     height: 55px;
   }
@@ -335,31 +335,31 @@ only screen and (max-device-width: 800px) {
     color: white;
     border: none;
   }
-  
+
   .dropdown-menu li{
     font-size: 1.3em;
     margin: 1em;
   }
-  
+
   .dropdown i {
     color: #faebd7;
   }
-  
+
   .dropdown button {
     /* background: #faebd7; */
     background: linear-gradient( rgba(98, 92, 84, 0.5), rgba(98, 92, 84, 0.5));
     border: none;
   }
-  
+
   .btn-default:hover{
     background: #046865;
   }
-  
+
   .bio,
   .contact-blurb {
     width: 80%;
   }
-   
+
 }
 
 @media only screen and (max-width: 450px),
@@ -374,18 +374,18 @@ only screen and (max-device-width: 450px) {
     margin-left: 10%;
     color: white;
   }
-  
+
   .desktop-table {
     display: none;
   }
-  
+
   .mobile-table {
     display: block;
     font-size: .8em;
   }
-  
+
   th {
     text-align: center;
   }
-  
+
 }
