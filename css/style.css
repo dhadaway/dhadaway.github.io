@@ -1,7 +1,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 2em;
+  font-size: 1.3em;
   text-align: center;
   color: black;
   background-color: white;
@@ -133,7 +133,7 @@ hr.header-divider {
   left: 0;
   right: 0;
   display: none;
-  background-color: white;
+  background-color: #faebd7;
   width: 50px;
   border-radius: 5px;
   opacity: .5;
