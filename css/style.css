@@ -158,7 +158,8 @@ hr.header-divider {
 }
 
 #accel-pic{
-
+  height:200px;
+  width: auto;
 }
 
 hr.fancy-line {
